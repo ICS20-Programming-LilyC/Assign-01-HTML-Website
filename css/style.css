@@ -1,0 +1,21 @@
+/* Created by: Lily C
+* Created on: Feb 16 2023
+* This CSS file defines the style for index.html
+* ICS2O-Unit1-04-HTML-CSS
+*/
+
+body {
+  background-color: #7b8a7e;
+}
+
+h2 {
+  background-color: rgb(82, 96, 72);
+  color: hsl(271deg 233% 232%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #697561;
+  color: #fff;
+}
