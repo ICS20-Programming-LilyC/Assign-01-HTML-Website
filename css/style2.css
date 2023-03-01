@@ -10,7 +10,7 @@ body {
 
 h2 {
   background-color: rgb(217, 217, 217);
-  color: hsl(271deg 233% 232%);
+  color: hsl(0deg, 0%, 50%);
   padding: 40px;
   text-align: center;
 }
