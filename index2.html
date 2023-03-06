@@ -26,7 +26,7 @@
   <body>
     <body style="background-color:LightSlateGrey">
     
-    <!-- Google's MDL Components-->
+    <!-- Javascript button message-->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script>
       function myButtonClicked() {
@@ -42,7 +42,7 @@
       <br></br>
     <center>
       <h5>Now let's explore the most common species of Quebec:</h5>
-      <p>Northen Pike</p>
+      <p>Northern Pike</p>
       <img src="./images/Northern-Pike.jpg" width="500" height="600">
       <br></br>
     <h6>Pike are one of the most popular freshwater predator and in modst aquatic ecosystems they lie that the top of the food chain as the apex predator. They can grow up to a maximum lengt of 60 inches and a maximum weight of around 60lb! These fish have slim bodies that make them very aerodynamic, which allows them to be very fast and effective predators. In addition they have about 700 razor-sharpteeth, so handle with catution. Overall, Pikes are known as being aggressive fish, which is why many fishmen enjoy fishing this species.</h6>
@@ -72,31 +72,36 @@
 
       <!-- Google MDl components -->
       <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-  <thead>
-    <tr>
-      <th class="mdl-data-table__cell--non-numeric">Fish</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Pike</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Largemouth Bass</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Yellow Perch</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Lake Trout</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Walleye/Pickerel</td>
-    </tr>
-  </tbody>
-</table>
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Fish</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Pike</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Largemouth Bass</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Yellow Perch</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Lake Trout</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Walleye/Pickerel</td>
+          </tr>
+        </tbody>
+      </table>
     </center>
-
+      <br></br>
+    <center>
+      <h6>Can you guess what freshwater fish is my favourite? Look at the images below for a clue!</h6>
+      <h6>(Answer below)</h6>
+    </center>
+  
     <!-- Bootstrap Carousel-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -132,21 +137,37 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./images/Sturgeon drawing.jpg" width="700" height="300">
-               </div>
-               <div class="carousel-item">
-                 <img src="./images/Sturgeon 1.jpg" width="500" height="400">
-               </div>
-               <div class="carousel-item">
-                 <img src="./images/Sturgeon 2.jpg" width="500" height="400">
-               </div>
-          </center>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Sturgeon 1.jpg" width="500" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Sturgeon 2.jpg" width="500" height="400">
+              </div>
+          </center>
+          
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+          <br></br>
 
-          <!-- Carousel controls -->
-          <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
+          <!-- Basic Chip -->
+          <center>
+          <span class="mdl-chip">
+            <span class="mdl-chip__text">Answer: Sturgeon</span>
+          </span>
+          </center>
+          <br></br>
+          <center>
+          <h6>Sturgeon aren't a very common catch and can only be found in certain regions of Quebec. I find these huge fish so incredible and my goal is to catch one someday. If you want to learn a little bit more about this fish and where you can catch them in Quebec, watch this short video below!</h6>
+          </center>
+
+          <!--Video-->
+          <iframe width="713" height="401" src="https://www.youtube.com/embed/VxzHcxco28Q" title="The sturgeon of the St. Lawrence" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          
   </body>
 </html>
