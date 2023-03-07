@@ -9,8 +9,8 @@ body {
 }
 
 h2 {
-  background-color: rgb(227, 213, 202);
-  color: hsl(206deg, 66%, 28%);
+  background-color: rgb(227 213 202);
+  color: hsl(206deg 66% 28%);
   padding: 40px;
   text-align: center;
 }
